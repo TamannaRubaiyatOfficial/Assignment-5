@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Service</title>
+
+    <!-- site icon link -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <!-- daisy ui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font links -->
+
+    <!-- hind madurai -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- roboto  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
+</head>
+
+<body class="bg-[#F5FFF6] text-[18px] text-[#111]">
+
+    <header>
+        <!-- navigation bar -->
+        <nav class="nav-bar bg-white py-6 lg:py-5 px-[60px] flex justify-between items-center">
+
+            <!-- logo container -->
+            <div class="header-logo-container">
+                <img src="images/Logo.svg" alt="Emergency Service Logo">
+            </div>
+
+            <!-- button container -->
+            <div
+                class="header-btn-container flex justify-between items-center gap-5 text-[16px] leading-6 inter-title-2 font-semibold">
+                <div class="love-btn-container">
+                    <button
+                        class="py-3 px-[30px] flex justify-between items-center bg-[#41ff6b1a] rounded-full cursor-pointer gap-[10px] capitalize hover:bg-[#00A63E] hover:text-white">
+                        <span>0</span>
+                        <span><img src="images/love-btn-icon.svg" alt="Love Button Icon"></span>
+                    </button>
+                </div>
+
+                <div class="coin-btn-container">
+                    <button
+                        class="py-3 px-[30px] flex justify-between items-center bg-[#41ff6b1a] rounded-full cursor-pointer gap-[10px] capitalize hover:bg-[#00A63E] hover:text-white">
+                        <span>100</span>
+                        <span><img src="images/coin-btn-icon.svg" alt="Coin Button Icon"></span>
+                    </button>
+                </div>
+
+                <div class="copy-btn-container">
+                    <button
+                        class="py-3 px-[30px] flex justify-between items-center bg-[#00A63E] rounded-full cursor-pointer gap-[5px] text-white capitalize hover:bg-[#009637] hover:text-white">
+                        <span>2</span>
+                        copy
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- banner section -->
+        <section class="banner py-6 px-[60px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]">
+
+            <div class="banner-img-container w-[6%] mx-auto">
+                <img class="w-full" src="images/logo.png" alt="Emergency Service Logo">
+            </div>
+
+            <div class="banner-text-container text-center hind-madurai-title text-white">
+                <h2 class="text-[40px] font-bold my-3 lg:my-[10px]">Emergency Service Directory</h2>
+                <p class="text-[20px] font-medium">Government Emergency Services at Your Fingertip – A Project by
+                    Government of the People’s Republic of Bangladesh</p>
+            </div>
+
+        </section>
+
+        <!-- service section -->
+        <section class="service px-[30px] pt-[18px] pb-[160px]">
+            <table border="1" width="100%" class="border-separate border-spacing-[30px] table-fixed">
+                <tbody>
+
+                    <!-- define column numbers -->
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <!-- first row  -->
+                    <tr>
+
+                        <!-- card 1 of first row  -->
+                        <td colspan="3" class="card-container p-8 rounded-xl bg-white ">
+                            <!-- card image container  -->
+                            <div class="card-img-container flex justify-between items-center">
+
+                                <div class="main-img-container bg-[#FFE3E2] rounded-2xl w-[20%] p-[10px]">
+                                    <img class="w-full" src="images/emergency.png" alt="Emergency Icon">
+                                </div>
+                                <div class="main-love-icon-container">
+                                    <i
+                                        class="fa-solid fa-heart text-[25px] cursor-pointer text-transparent hover:text-[#ed1c24]"></i>
+                                </div>
+
+                            </div>
+
+                            <!-- card title container  -->
+                            <div class="card-title-container mt-4 mb-6">
+                                <h4 class="hind-madurai-title text-2xl text-[#111] font-bold capitalize">National
+                                    Emergency Number</h4>
+                                <p class="roboto-sub-title text-[18px] font-normal text-[#5C5C5C] capitalize mt-[3px]">
+                                    National Emergency</p>
+                            </div>
+
+                            <!-- card number container  -->
+                            <div class="card-num-container">
+                                <span class="block roboto-sub-title text-[32px] font-bold text-[#111]">999</span>
+                                <span
+                                    class="hind-madurai-title text-[18px] font-normal mt-[3px] py-[6px] px-4 bg-[#F2F2F2] rounded-full capitalize">all</span>
+                            </div>
+
+                            <!-- card button container  -->
+                            <div class="card-btn-container mt-6 flex justify-between items-center gap-2">
+                                <button
+                                    class="block w-full p-[10px] bg-transparent border border-[#D4D6D5] roboto-sub-title text-[16px] font-normal text-[#5C5C5C] rounded-lg capitalize hover:text-white hover:bg-[#3e3e3e] hover:border-[#3e3e3e] cursor-pointer box-border">
+                                    <span class="mr-[6px]"><i class="fa-regular fa-copy"></i></span>
+                                    copy
+                                </button>
+
+                                <button
+                                    class="block w-full p-[10px] bg-[#00A63E] roboto-sub-title text-[16px] font-normal rounded-lg capitalize text-white hover:bg-[#009637] cursor-pointer">
+                                    <span class="mr-[6px] phone-icon"><i
+                                            class="fa-solid fa-phone text-transparent"></i></span>
+                                    call
+                                </button>
+                            </div>
+                        </td>
+
+                        <!-- card 2 of first row  -->
+                        <td colspan="3" class="card-container p-8 rounded-xl bg-white ">
+                            <!-- card image container  -->
+                            <div class="card-img-container flex justify-between items-center">
+
+                                <div class="police main-img-container bg-[#DFEFFF] rounded-2xl w-[20%] p-[5px]">
+                                    <img class="w-full" src="images/police.png" alt="Police Icon">
+                                </div>
+                                <div class="main-love-icon-container">
+                                    <i
+                                        class="fa-solid fa-heart text-[25px] cursor-pointer text-transparent hover:text-[#ed1c24]"></i>
+                                </div>
+
+                            </div>
+
+                            <!-- card title container  -->
+                            <div class="card-title-container mt-4 mb-6">
+                                <h4 class="hind-madurai-title text-2xl text-[#111] font-bold capitalize">Police
+                                    Helpline Number</h4>
+                                <p class="roboto-sub-title text-[18px] font-normal text-[#5C5C5C] capitalize mt-[3px]">
+                                    Police</p>
+                            </div>
+
+                            <!-- card number container  -->
+                            <div class="card-num-container">
+                                <span class="block roboto-sub-title text-[32px] font-bold text-[#111]">999</span>
+                                <span
+                                    class="hind-madurai-title text-[18px] font-normal mt-[3px] py-[6px] px-4 bg-[#F2F2F2] rounded-full capitalize">Police</span>
+                            </div>
+
+                            <!-- card button container  -->
+                            <div class="card-btn-container mt-6 flex justify-between items-center gap-2">
+                                <button
+                                    class="block w-full p-[10px] bg-transparent border border-[#D4D6D5] roboto-sub-title text-[16px] font-normal text-[#5C5C5C] rounded-lg capitalize hover:text-white hover:bg-[#3e3e3e] hover:border-[#3e3e3e] cursor-pointer box-border">
+                                    <span class="mr-[6px]"><i class="fa-regular fa-copy"></i></span>
+                                    copy
+                                </button>
+
+                                <button
+                                    class="block w-full p-[10px] bg-[#00A63E] roboto-sub-title text-[16px] font-normal rounded-lg capitalize text-white hover:bg-[#009637] cursor-pointer">
+                                    <span class="mr-[6px] phone-icon"><i
+                                            class="fa-solid fa-phone text-transparent"></i></span>
+                                    call
+                                </button>
+                            </div>
+                        </td>
+
+                        <!-- card 3 of first row  -->
+                        <td colspan="3" class="card-container p-8 rounded-xl bg-white ">
+                            <!-- card image container  -->
+                            <div class="card-img-container flex justify-between items-center">
+
+                                <div class="main-img-container bg-[#FFE3E2] rounded-2xl w-[20%] p-[10px]">
+                                    <img class="w-full" src="images/fire-service.png" alt="Fire Service Icon">
+                                </div>
+                                <div class="main-love-icon-container">
+                                    <i
+                                        class="fa-solid fa-heart text-[25px] cursor-pointer text-transparent hover:text-[#ed1c24]"></i>
+                                </div>
+
+                            </div>
+
+                            <!-- card title container  -->
+                            <div class="card-title-container mt-4 mb-6">
+                                <h4 class="hind-madurai-title text-2xl text-[#111] font-bold capitalize">Fire
+                                    Service Number</h4>
+                                <p class="roboto-sub-title text-[18px] font-normal text-[#5C5C5C] capitalize mt-[3px]">
+                                    Fire Service</p>
+                            </div>
+
+                            <!-- card number container  -->
+                            <div class="card-num-container">
+                                <span class="block roboto-sub-title text-[32px] font-bold text-[#111]">999</span>
+                                <span
+                                    class="hind-madurai-title text-[18px] font-normal mt-[3px] py-[6px] px-4 bg-[#F2F2F2] rounded-full capitalize">Fire</span>
+                            </div>
+
+                            <!-- card button container  -->
+                            <div class="card-btn-container mt-6 flex justify-between items-center gap-2">
+                                <button
+                                    class="block w-full p-[10px] bg-transparent border border-[#D4D6D5] roboto-sub-title text-[16px] font-normal text-[#5C5C5C] rounded-lg capitalize hover:text-white hover:bg-[#3e3e3e] hover:border-[#3e3e3e] cursor-pointer box-border">
+                                    <span class="mr-[6px]"><i class="fa-regular fa-copy"></i></span>
+                                    copy
+                                </button>
+
+                                <button
+                                    class="block w-full p-[10px] bg-[#00A63E] roboto-sub-title text-[16px] font-normal rounded-lg capitalize text-white hover:bg-[#009637] cursor-pointer">
+                                    <span class="mr-[6px] phone-icon"><i
+                                            class="fa-solid fa-phone text-transparent"></i></span>
+                                    call
+                                </button>
+                            </div>
+                        </td>
+
+                        <!-- card 4 of first row  -->
+                        <td colspan="3" rowspan="3" class="card-container p-6 rounded-xl bg-white align-top">
+
+                            <!-- history title container -->
+                            <div class="history-title-container flex justify-between items-center mb-4">
+                                <div class="history-title flex justify-start items-center gap-2">
+                                    <i class="fa-regular fa-clock text-[gray] text-[22px]"></i>
+                                    <h4
+                                        class="roboto-sub-title text-[20px] text-[#111] font-medium leading-7 capitalize">
+                                        call history</h4>
+                                </div>
+
+                                <button
+                                    class="px-[36px] py-[14px] bg-[#00A63E] rounded-full inter-title-2 text-[16px] font-semibold leading-6 capitalize text-white cursor-pointer hover:bg-[#009637]">clear</button>
+                            </div>
+
+                            <!-- history info container -->
+                            <div
+                                class="history-info-container p-4 bg-[#FAFAFA] rounded-lg mt-3 flex justify-between items-center">
+                                <div class="history-info">
+                                    <h4 class="inter-title-2 text-[18px] font-semibold text-[#111] capitalize">Fire
+                                        Service Number</h4>
+                                    <p class="hind-madurai-title text-[18px] font-normal text-[#5C5C5C]">999</p>
+                                </div>
+                                <div
+                                    class="history-time hind-madurai-title text-[18px] font-normal text-[#111] uppercase">
+                                    11:36:58 AM</div>
+                            </div>
+
+                            <div
+                                class="history-info-container p-4 bg-[#FAFAFA] rounded-lg mt-3 flex justify-between items-center">
+                                <div class="history-info">
+                                    <h4 class="inter-title-2 text-[18px] font-semibold text-[#111] capitalize">Fire
+                                        Service Number</h4>
+                                    <p class="hind-madurai-title text-[18px] font-normal text-[#5C5C5C]">999</p>
+                                </div>
+                                <div
+                                    class="history-time hind-madurai-title text-[18px] font-normal text-[#111] uppercase">
+                                    11:36:58 AM</div>
+                            </div>
+
+                            <div
+                                class="history-info-container p-4 bg-[#FAFAFA] rounded-lg mt-3 flex justify-between items-center">
+                                <div class="history-info">
+                                    <h4 class="inter-title-2 text-[18px] font-semibold text-[#111] capitalize">Fire
+                                        Service Number</h4>
+                                    <p class="hind-madurai-title text-[18px] font-normal text-[#5C5C5C]">999</p>
+                                </div>
+                                <div
+                                    class="history-time hind-madurai-title text-[18px] font-normal text-[#111] uppercase">
+                                    11:36:58 AM</div>
+                            </div>
+
+                            <div
+                                class="history-info-container p-4 bg-[#FAFAFA] rounded-lg mt-3 flex justify-between items-center">
+                                <div class="history-info">
+                                    <h4 class="inter-title-2 text-[18px] font-semibold text-[#111] capitalize">Fire
+                                        Service Number</h4>
+                                    <p class="hind-madurai-title text-[18px] font-normal text-[#5C5C5C]">999</p>
+                                </div>
+                                <div
+                                    class="history-time hind-madurai-title text-[18px] font-normal text-[#111] uppercase">
+                                    11:36:58 AM</div>
+                            </div>
+
+                            <div
+                                class="history-info-container p-4 bg-[#FAFAFA] rounded-lg mt-3 flex justify-between items-center">
+                                <div class="history-info">
+                                    <h4 class="inter-title-2 text-[18px] font-semibold text-[#111] capitalize">Fire
+                                        Service Number</h4>
+                                    <p class="hind-madurai-title text-[18px] font-normal text-[#5C5C5C]">999</p>
+                                </div>
+                                <div
+                                    class="history-time hind-madurai-title text-[18px] font-normal text-[#111] uppercase">
+                                    11:36:58 AM</div>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <!-- second row  -->
+                    <tr>
+
+                        <!-- card 1 of second row  -->
+                        <td colspan="3" class="card-container p-8 rounded-xl bg-white ">
+                            <!-- card image container  -->
+                            <div class="card-img-container flex justify-between items-center">
+
+                                <div class="main-img-container bg-[#FFE3E2] rounded-2xl w-[20%] p-[10px]">
+                                    <img class="w-full" src="images/ambulance.png" alt="Ambulance Service Icon">
+                                </div>
+                                <div class="main-love-icon-container">
+                                    <i
+                                        class="fa-solid fa-heart text-[25px] cursor-pointer text-transparent hover:text-[#ed1c24]"></i>
+                                </div>
+
+                            </div>
+
+                            <!-- card title container  -->
+                            <div class="card-title-container mt-4 mb-6">
+                                <h4 class="hind-madurai-title text-2xl text-[#111] font-bold capitalize">Ambulance
+                                    Service</h4>
+                                <p class="roboto-sub-title text-[18px] font-normal text-[#5C5C5C] capitalize mt-[3px]">
+                                    Ambulance</p>
+                            </div>
+
+                            <!-- card number container  -->
+                            <div class="card-num-container">
+                                <span
+                                    class="block roboto-sub-title text-[32px] font-bold text-[#111]">1994-999999</span>
+                                <span
+                                    class="hind-madurai-title text-[18px] font-normal mt-[3px] py-[6px] px-4 bg-[#F2F2F2] rounded-full capitalize">Health</span>
+                            </div>
+
+                            <!-- card button container  -->
+                            <div class="card-btn-container mt-6 flex justify-between items-center gap-2">
+                                <button
+                                    class="block w-full p-[10px] bg-transparent border border-[#D4D6D5] roboto-sub-title text-[16px] font-normal text-[#5C5C5C] rounded-lg capitalize hover:text-white hover:bg-[#3e3e3e] hover:border-[#3e3e3e] cursor-pointer box-border">
+                                    <span class="mr-[6px]"><i class="fa-regular fa-copy"></i></span>
+                                    copy
+                                </button>
+
+                                <button
+                                    class="block w-full p-[10px] bg-[#00A63E] roboto-sub-title text-[16px] font-normal rounded-lg capitalize text-white hover:bg-[#009637] cursor-pointer">
+                                    <span class="mr-[6px] phone-icon"><i
+                                            class="fa-solid fa-phone text-transparent"></i></span>
+                                    call
+                                </button>
+                            </div>
+                        </td>
+
+                        <!-- card 2 of second row  -->
+                        <td colspan="3" class="card-container p-8 rounded-xl bg-white ">
+                            <!-- card image container  -->
+                            <div class="card-img-container flex justify-between items-center">
+
+                                <div class="main-img-container bg-[#FFE3E2] rounded-2xl w-[20%] p-[10px]">
+                                    <img class="w-full" src="images/emergency.png" alt="Emergency Icon">
+                                </div>
+                                <div class="main-love-icon-container">
+                                    <i
+                                        class="fa-solid fa-heart text-[25px] cursor-pointer text-transparent hover:text-[#ed1c24]"></i>
+                                </div>
+
+                            </div>
+
+                            <!-- card title container  -->
+                            <div class="card-title-container mt-4 mb-6">
+                                <h4 class="hind-madurai-title text-2xl text-[#111] font-bold capitalize">Women &
+                                    Child Helpline</h4>
+                                <p class="roboto-sub-title text-[18px] font-normal text-[#5C5C5C] capitalize mt-[3px]">
+                                    Women & Child Helpline</p>
+                            </div>
+
+                            <!-- card number container  -->
+                            <div class="card-num-container">
+                                <span class="block roboto-sub-title text-[32px] font-bold text-[#111]">109</span>
+                                <span
+                                    class="hind-madurai-title text-[18px] font-normal mt-[3px] py-[6px] px-4 bg-[#F2F2F2] rounded-full capitalize">Help</span>
+                            </div>
+
+                            <!-- card button container  -->
+                            <div class="card-btn-container mt-6 flex justify-between items-center gap-2">
+                                <button
+                                    class="block w-full p-[10px] bg-transparent border border-[#D4D6D5] roboto-sub-title text-[16px] font-normal text-[#5C5C5C] rounded-lg capitalize hover:text-white hover:bg-[#3e3e3e] hover:border-[#3e3e3e] cursor-pointer box-border">
+                                    <span class="mr-[6px]"><i class="fa-regular fa-copy"></i></span>
+                                    copy
+                                </button>
+
+                                <button
+                                    class="block w-full p-[10px] bg-[#00A63E] roboto-sub-title text-[16px] font-normal rounded-lg capitalize text-white hover:bg-[#009637] cursor-pointer">
+                                    <span class="mr-[6px] phone-icon"><i
+                                            class="fa-solid fa-phone text-transparent"></i></span>
+                                    call
+                                </button>
+                            </div>
+                        </td>
+
+                        <!-- card 3 of second row  -->
+                        <td colspan="3" class="card-container p-8 rounded-xl bg-white ">
+                            <!-- card image container  -->
+                            <div class="card-img-container flex justify-between items-center">
+
+                                <div class="main-img-container bg-[#FFE3E2] rounded-2xl w-[20%] p-[10px]">
+                                    <img class="w-full" src="images/emergency.png" alt="Emergency Icon">
+                                </div>
+                                <div class="main-love-icon-container">
+                                    <i
+                                        class="fa-solid fa-heart text-[25px] cursor-pointer text-transparent hover:text-[#ed1c24]"></i>
+                                </div>
+
+                            </div>
+
+                            <!-- card title container  -->
+                            <div class="card-title-container mt-4 mb-6">
+                                <h4 class="hind-madurai-title text-2xl text-[#111] font-bold capitalize">
+                                    Anti-Corruption Helpline</h4>
+                                <p class="roboto-sub-title text-[18px] font-normal text-[#5C5C5C] capitalize mt-[3px]">
+                                    Anti-Corruption</p>
+                            </div>
+
+                            <!-- card number container  -->
+                            <div class="card-num-container">
+                                <span class="block roboto-sub-title text-[32px] font-bold text-[#111]">106</span>
+                                <span
+                                    class="hind-madurai-title text-[18px] font-normal mt-[3px] py-[6px] px-4 bg-[#F2F2F2] rounded-full capitalize">Govt.</span>
+                            </div>
+
+                            <!-- card button container  -->
+                            <div class="card-btn-container mt-6 flex justify-between items-center gap-2">
+                                <button
+                                    class="block w-full p-[10px] bg-transparent border border-[#D4D6D5] roboto-sub-title text-[16px] font-normal text-[#5C5C5C] rounded-lg capitalize hover:text-white hover:bg-[#3e3e3e] hover:border-[#3e3e3e] cursor-pointer box-border">
+                                    <span class="mr-[6px]"><i class="fa-regular fa-copy"></i></span>
+                                    copy
+                                </button>
+
+                                <button
+                                    class="block w-full p-[10px] bg-[#00A63E] roboto-sub-title text-[16px] font-normal rounded-lg capitalize text-white hover:bg-[#009637] cursor-pointer">
+                                    <span class="mr-[6px] phone-icon"><i
+                                            class="fa-solid fa-phone text-transparent"></i></span>
+                                    call
+                                </button>
+                            </div>
+                        </td>
+
+                    </tr>
+
+                    <!-- third row  -->
+                    <tr>
+                        <!-- card 1 of third row -->
+                        <td colspan="3" class="card-container p-8 rounded-xl bg-white ">
+                            <!-- card image container  -->
+                            <div class="card-img-container flex justify-between items-center">
+
+                                <div class="main-img-container bg-[#FFE3E2] rounded-2xl w-[20%] p-[10px]">
+                                    <img class="w-full" src="images/emergency.png" alt="Emergency Icon">
+                                </div>
+                                <div class="main-love-icon-container">
+                                    <i
+                                        class="fa-solid fa-heart text-[25px] cursor-pointer text-transparent hover:text-[#ed1c24]"></i>
+                                </div>
+
+                            </div>
+
+                            <!-- card title container  -->
+                            <div class="card-title-container mt-4 mb-6">
+                                <h4 class="hind-madurai-title text-2xl text-[#111] font-bold capitalize">Electricity
+                                    Helpline</h4>
+                                <p class="roboto-sub-title text-[18px] font-normal text-[#5C5C5C] capitalize mt-[3px]">
+                                    Electricity Outage</p>
+                            </div>
+
+                            <!-- card number container  -->
+                            <div class="card-num-container">
+                                <span class="block roboto-sub-title text-[32px] font-bold text-[#111]">16216</span>
+                                <span
+                                    class="hind-madurai-title text-[18px] font-normal mt-[3px] py-[6px] px-4 bg-[#F2F2F2] rounded-full capitalize">Electricity</span>
+                            </div>
+
+                            <!-- card button container  -->
+                            <div class="card-btn-container mt-6 flex justify-between items-center gap-2">
+                                <button
+                                    class="block w-full p-[10px] bg-transparent border border-[#D4D6D5] roboto-sub-title text-[16px] font-normal text-[#5C5C5C] rounded-lg capitalize hover:text-white hover:bg-[#3e3e3e] hover:border-[#3e3e3e] cursor-pointer box-border">
+                                    <span class="mr-[6px]"><i class="fa-regular fa-copy"></i></span>
+                                    copy
+                                </button>
+
+                                <button
+                                    class="block w-full p-[10px] bg-[#00A63E] roboto-sub-title text-[16px] font-normal rounded-lg capitalize text-white hover:bg-[#009637] cursor-pointer">
+                                    <span class="mr-[6px] phone-icon"><i
+                                            class="fa-solid fa-phone text-transparent"></i></span>
+                                    call
+                                </button>
+                            </div>
+                        </td>
+
+                        <!-- card 2 of third row  -->
+                        <td colspan="3" class="card-container p-8 rounded-xl bg-white ">
+                            <!-- card image container  -->
+                            <div class="card-img-container flex justify-between items-center">
+
+                                <div class="main-img-container bg-[#FFE3E2] rounded-2xl w-[20%] p-[10px]">
+                                    <img class="w-full" src="images/emergency.png" alt="Emergency Icon">
+                                </div>
+                                <div class="main-love-icon-container">
+                                    <i
+                                        class="fa-solid fa-heart text-[25px] cursor-pointer text-transparent hover:text-[#ed1c24]"></i>
+                                </div>
+
+                            </div>
+
+                            <!-- card title container  -->
+                            <div class="card-title-container mt-4 mb-6">
+                                <h4 class="hind-madurai-title text-2xl text-[#111] font-bold capitalize">Brac
+                                    Helpline</h4>
+                                <p class="roboto-sub-title text-[18px] font-normal text-[#5C5C5C] capitalize mt-[3px]">
+                                    Brac</p>
+                            </div>
+
+                            <!-- card number container  -->
+                            <div class="card-num-container">
+                                <span class="block roboto-sub-title text-[32px] font-bold text-[#111]">16445</span>
+                                <span
+                                    class="hind-madurai-title text-[18px] font-normal mt-[3px] py-[6px] px-4 bg-[#F2F2F2] rounded-full capitalize">NGO</span>
+                            </div>
+
+                            <!-- card button container  -->
+                            <div class="card-btn-container mt-6 flex justify-between items-center gap-2">
+                                <button
+                                    class="block w-full p-[10px] bg-transparent border border-[#D4D6D5] roboto-sub-title text-[16px] font-normal text-[#5C5C5C] rounded-lg capitalize hover:text-white hover:bg-[#3e3e3e] hover:border-[#3e3e3e] cursor-pointer box-border">
+                                    <span class="mr-[6px]"><i class="fa-regular fa-copy"></i></span>
+                                    copy
+                                </button>
+
+                                <button
+                                    class="block w-full p-[10px] bg-[#00A63E] roboto-sub-title text-[16px] font-normal rounded-lg capitalize text-white hover:bg-[#009637] cursor-pointer">
+                                    <span class="mr-[6px] phone-icon"><i
+                                            class="fa-solid fa-phone text-transparent"></i></span>
+                                    call
+                                </button>
+                            </div>
+                        </td>
+
+                        <!-- card 3 of third row  -->
+                        <td colspan="3" class="card-container p-8 rounded-xl bg-white ">
+                            <!-- card image container  -->
+                            <div class="card-img-container flex justify-between items-center">
+
+                                <div class="main-img-container bg-[#FFE3E2] rounded-2xl w-[20%] p-[10px]">
+                                    <img class="w-full" src="images/emergency.png" alt="Emergency Icon">
+                                </div>
+                                <div class="main-love-icon-container">
+                                    <i
+                                        class="fa-solid fa-heart text-[25px] cursor-pointer text-transparent hover:text-[#ed1c24]"></i>
+                                </div>
+
+                            </div>
+
+                            <!-- card title container  -->
+                            <div class="card-title-container mt-4 mb-6">
+                                <h4 class="hind-madurai-title text-2xl text-[#111] font-bold capitalize">Bangladesh
+                                    Railway Helpline </h4>
+                                <p class="roboto-sub-title text-[18px] font-normal text-[#5C5C5C] capitalize mt-[3px]">
+                                    Bangladesh Railway</p>
+                            </div>
+
+                            <!-- card number container  -->
+                            <div class="card-num-container">
+                                <span class="block roboto-sub-title text-[32px] font-bold text-[#111]">163</span>
+                                <span
+                                    class="hind-madurai-title text-[18px] font-normal mt-[3px] py-[6px] px-4 bg-[#F2F2F2] rounded-full capitalize">Travel</span>
+                            </div>
+
+                            <!-- card button container  -->
+                            <div class="card-btn-container mt-6 flex justify-between items-center gap-2">
+                                <button
+                                    class="block w-full p-[10px] bg-transparent border border-[#D4D6D5] roboto-sub-title text-[16px] font-normal text-[#5C5C5C] rounded-lg capitalize hover:text-white hover:bg-[#3e3e3e] hover:border-[#3e3e3e] cursor-pointer box-border">
+                                    <span class="mr-[6px]"><i class="fa-regular fa-copy"></i></span>
+                                    copy
+                                </button>
+
+                                <button
+                                    class="block w-full p-[10px] bg-[#00A63E] roboto-sub-title text-[16px] font-normal rounded-lg capitalize text-white hover:bg-[#009637] cursor-pointer">
+                                    <span class="mr-[6px] phone-icon"><i
+                                            class="fa-solid fa-phone text-transparent"></i></span>
+                                    call
+                                </button>
+                            </div>
+                        </td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+
+
+        </section>
+
+
+
+
+    </main>
+
+
+
+    <!-- js links -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
