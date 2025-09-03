@@ -19,7 +19,6 @@ document.querySelectorAll(".call-btn").forEach(function (btn) {
     btn.addEventListener("click", function (e) {
         e.preventDefault();
 
-        // Show an **alert** with a message including the service name and number
         const card = btn.closest(".card-container");
         const serviceName = card.querySelector(".card-title-container h4").innerText;
         const serviceNum = card.querySelector(".service-num").innerText;
@@ -93,3 +92,37 @@ document.getElementById("clear-btn")
         callHistoryData.length = 0;
         callHistoryContentAdd();
     })
+
+
+// Copy Button Functionalities
+let copyCount = 0;
+const copyBtn = document.getElementById("copy-btn-nav");
+document.querySelectorAll(".copy-btn").forEach(function (copy) {
+    copy.addEventListener("click", function (e) {
+        e.preventDefault();
+        copyCount++;
+        copyBtn.innerText = copyCount;
+        alert("\n   📋 " + copyCount + " Number Copied");
+    })
+})
+
+// Hotline Num Copy 
+document.querySelectorAll(".service-num").forEach(function (num) {
+    num.addEventListener("click", function () {
+
+        const card = num.closest(".card-container");
+        const serviceNum = card.querySelector(".service-num").innerText;
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(serviceNum)
+                .then(function () {
+                    alert(`📋 Hotline number "${serviceNum}" copied to clipboard!`);
+                })
+                .catch(function(err) {
+                    console.error("❌ Failed to copy: ", err);
+                });
+        } else {
+            console.error("❌ Clipboard API not supported in this browser.");
+        }
+    })
+})

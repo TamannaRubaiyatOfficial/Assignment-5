@@ -65,25 +65,27 @@
 
         - On clicking a card's **Call Button**, following actions will happen:
             - Show an **alert** with a message including the service name and number (Done)
-            - Each call will **cut 20 coins**. Reduce Coin after each click.
-            - If coins are less than 20, show a relevant alert and terminate the process.
-            - Add this service into the **Call History section** with:
+            - Each call will **cut 20 coins**. Reduce Coin after each click. (Done)
+            - If coins are less than 20, show a relevant alert and terminate the process. (Done)
+
+
+            - Add this service into the **Call History section** with: (Done)
                 - Service name
                 - Service number
 
-    ### Call History Section
+    ### Call History Section (Done)
 
         - Show all called services with name & number. This will empty initially. when call button clicked it will filled dynamically.
         - A **Clear History button** on the right
         - Clicking this button will remove all data from call history
 
-    ### Copy Button Functionalities 
+    ### Copy Button Functionalities (Done)
         - On clicking the **Copy button**, show an alert and **increase the copy count** (3 Marks)
 
     ### Hotline Num Copy 
         - Hotline number will be **copied on click** so it can be pasted anywhere (4 Marks)
 
-    ### Call history time on clicking call button
+    ### Call history time on clicking call button (Done)
         - After clicking on the **Call button**, the **exact time of the call** will be shown in the Call History section (3 Marks)
 
 ### 6. Create Readme
