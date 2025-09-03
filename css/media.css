@@ -5,7 +5,93 @@
 @media (min-width: 576px) and (max-width: 767.98px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* navigation bar style  */
+    nav {
+        padding: 15px 50px;
+    }
+    .banner {
+        padding: 24px 50px;
+    }
+    .banner-text-container h2 {
+        margin: 8px 0;
+        font-size: 35px;
+    }
+    .banner-text-container p {
+        font-size: 18px;
+    }
+    .header-btn-container {
+        gap: 12px;
+    }
+    .love-btn-container button,
+    .coin-btn-container button,
+    .copy-btn-container button {
+        padding: 10px 25px;
+    }
+
+       /* banner section */
+    .banner-img-container {
+        width: 10%;
+    }
+
+    /* service section  */
+    .service {
+        padding: 10px 20px 100px;
+    }
+    .card-container {
+        padding: 20px;
+    }
+    table {
+        border-spacing: 15px;
+    }
+    .main-img-container {
+        width: 30%;
+        padding: 5px;
+    }
+    .police {
+        padding: 2px;
+    }
+    .copy-btn, .call-btn {
+        padding: 7px;
+    }
+    .call-btn {
+        margin-top: 8px;
+    }
+    .card-title-container {
+        margin: 12px 0 18px;
+    }
+    .card-title-container h4 {
+        font-size: 20px;
+    }
+    .card-title-container p {
+        font-size: 14px;
+    }
+    .service-num {
+        font-size: 20px;
+    }
+    .tag {
+        font-size: 14px;
+        padding: 4px 12px;
+    }
+    .card-btn-container {
+        display: block;
+        margin-top: 18px;
+    }
+
+    /* call history section  */
+    #clear-btn {
+        padding: 8px 0;
+        margin-top: 8px;
+        width: 100%;
+
+    }
+    .history-title-container {
+        display: block;
+    }
+    .history-title-container h4, .history-title-container p {
+        font-size: 16px;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -28,8 +114,11 @@
     }
 
     /* service section  */
+    .card-container {
+        padding: 20px;
+    }
     table {
-        border-spacing: 22px;
+        border-spacing: 18px;
     }
     .main-img-container {
         width: 25%;
@@ -37,6 +126,21 @@
     }
     .police {
         padding: 4px;
+    }
+    .copy-btn, .call-btn {
+        padding: 7px;
+    }
+
+    /* call history section  */
+    #clear-btn {
+        padding: 10px 26px;
+
+    }
+    .history-title-container h4, .history-title-container p {
+        font-size: 17px;
+    }
+    .history-info-container {
+        display: block;
     }
 }
 
